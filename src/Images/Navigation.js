@@ -21,8 +21,7 @@ function classNames(...classes) {
 
  function Navigation() {
   return (
-    // control whole nav bar
-    <Disclosure as="nav" className="bg-[#ff6787]">
+    <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -54,7 +53,7 @@ function classNames(...classes) {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-black hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -68,7 +67,7 @@ function classNames(...classes) {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
                 {/* download CV */}
-              <a href={myResume}><button className='border-2 bg-black rounded-xl '>Download CV</button></a>
+              <a href={myResume}><button className=''>Download CV</button></a>
               </div>
             </div>
           </div>
