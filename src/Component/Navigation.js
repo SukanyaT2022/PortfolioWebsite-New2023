@@ -6,10 +6,10 @@ import myLogo from '../Images/logo.png'
 import myResume from '../Images/TSresume.docx'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
+  { name: 'Home', href: '/', current: true },
   { name: 'Resume', href: '#', current: false },
   { name: 'About Me', href: '#', current: false },
-  { name: 'Portfolio', href: '#', current: false },
+  { name: 'Portfolio', href: 'portfolio', current: false },
   { name: 'React Projects', href: '#', current: false },
   { name: 'IOS & Swift Projects', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
