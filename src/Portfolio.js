@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div>
       <h2>Portfolio</h2>
       <div>
-      <Card dataPortfolio={dataPortfolio}/>
+      <Card data={dataPortfolio}/>
       </div>
     </div>
   )
