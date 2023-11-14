@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.targetTitle{
+
+    background: -webkit-linear-gradient(#F9A66C, #F17a7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
