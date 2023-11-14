@@ -7,6 +7,7 @@ import { Routes,Route } from 'react-router-dom'
 import Portfolio from './Portfolio'
 import ReactPortfolio from './ReactPortfolio'
 import Home from './Home'
+import SwiftPortfolio from './SwiftPortfolio'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/" element={<Home />}/>
           <Route path="portfolio" element={<Portfolio/>} />
           <Route path="reactportfolio" element={<ReactPortfolio/>} />
+          <Route path="swiftportfolio" element={<SwiftPortfolio/>} />
   
 
       </Routes>

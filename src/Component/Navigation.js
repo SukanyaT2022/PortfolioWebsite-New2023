@@ -11,7 +11,7 @@ const navigation = [
   { name: 'About Me', href: '#', current: false },
   { name: 'Portfolio', href: 'portfolio', current: false },
   { name: 'React Projects', href: 'reactportfolio', current: false },
-  { name: 'IOS & Swift Projects', href: '#', current: false },
+  { name: 'IOS & Swift Projects', href: 'swiftportfolio', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
 
