@@ -7,12 +7,12 @@ import myResume from '../Images/TSresume.docx'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Resume', href: '#', current: false },
-  { name: 'About Me', href: '#', current: false },
+  { name: 'Resume', href: 'resume', current: false },
+  { name: 'About Me', href: 'aboutme', current: false },
   { name: 'Portfolio', href: 'portfolio', current: false },
   { name: 'React Projects', href: 'reactportfolio', current: false },
   { name: 'IOS & Swift Projects', href: 'swiftportfolio', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Contact', href: 'contact', current: false },
 ]
 
 function classNames(...classes) {
