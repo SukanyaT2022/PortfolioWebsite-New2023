@@ -2,10 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* portfolio title on each page */
 .targetTitle{
-
-    background: -webkit-linear-gradient(#F9A66C, #F17a7e);
+    background: -webkit-linear-gradient(#ffc94b, #F17a7e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  
