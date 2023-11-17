@@ -1,5 +1,9 @@
 import React from 'react'
 import myLogo from '../Images/logo.png'
+import { FaFacebook } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
@@ -13,16 +17,34 @@ const Footer = () => {
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                    <a href="aboutme" class="mr-4 hover:underline md:mr-6 ">About</a>
+                    {/* href how to like the page link to about page look app.js at the path=aboutme */}
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Resume</a>
+                    <a href="portfolio" class="mr-4 hover:underline md:mr-6">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Portfolio</a>
+                    <a href="reactportfolio" class="mr-4 hover:underline md:mr-6 ">React Projects</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Contact</a>
+                    <a href="contact" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+
+            {/* social media */}
+         
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                <a href="https://github.com/SukanyaT2022" target='_blank'><FaGithub /></a>
+                </li>
+                <li>
+                <FaTiktok />
+                </li>
+                <li>
+                <FaFacebook /> 
+                </li>
+                <li>
+                <FaInstagram />
                 </li>
             </ul>
         </div>
