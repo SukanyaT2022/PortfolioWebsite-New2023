@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 /* portfolio title on each page */
+
+/* base color bg-[#eeeeee] */
+
+
 .targetTitle{
     background: -webkit-linear-gradient(#ffc94b, #F17a7e);
     -webkit-background-clip: text;
@@ -39,5 +43,51 @@ margin-left: 50px;
   width: 70%;
   height: 70%;
   object-fit: cover;
+ }
+/* ipad*/
+@media screen and (max-width:900px){
+ /* homepage */
+ .bigHero{
+height: 40vh;
+}
+.text{
+  width: 40%;
+  margin-left: 50px;
+   }
+}
+
+/* resume page */
+
+.icon{
+font-size: 20px;
+background-color:#eeeeee;
+padding: 15px;
+border-radius: 100%;
+}
+.controlWholeLayout{
+width: 90%;
+margin: 50px auto;
+}
+
+
+/* phone */
+ @media screen and (max-width:600px){
+  .bigHero{
+flex-direction: column;
+height: auto;
+padding: 30px 0px;
+    }
+    .text{
+      width: 70%;
+      margin-left: 0px;
+      margin-top: 20px;
+      text-align: center;
+       }
+       .myImage{
+        width: 200px;
+        height: 200px;
+     
+    
+       }
  }
 

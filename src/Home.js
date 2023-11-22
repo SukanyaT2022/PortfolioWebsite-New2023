@@ -11,7 +11,8 @@ const Home = () => {
       </div>
     <div className='text'>
       <p>lIf you need to use a one-off background-image value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any</p>
-      <a href ="contact"><button className='bg-blue-300 py-2 px-5 rounded-3xl mt-2'>Contact Me</button></a>
+      <a href ="contact"><button className='bg-[#F17a7e] py-2 px-5 rounded-3xl lg:mt-2 mt-5'>Contact Me</button></a>
+      {/* lg means ipad air- md ipad mini - sm is phone */}
       </div>
   
       </div>
