@@ -5,7 +5,9 @@
 /* portfolio title on each page */
 
 /* base color bg-[#eeeeee] */
-
+html,body{
+  overflow-x: hidden
+}
 
 .targetTitle{
     background: -webkit-linear-gradient(#ffc94b, #F17a7e);
@@ -61,13 +63,20 @@ height: 40vh;
 .icon{
 font-size: 20px;
 background-color:#eeeeee;
-padding: 15px;
+padding: 10px;
 border-radius: 100%;
 }
 .controlWholeLayout{
 width: 90%;
 margin: 50px auto;
 }
+/* skills section */
+.skills{
+  list-style: disc;
+ 
+}
+
+
 
 
 /* phone */
